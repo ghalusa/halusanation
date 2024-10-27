@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8fe34335dff3bf0698c8de814722bd40",
+    "content-hash": "627d27180380d71d963da933044abea5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -491,71 +491,6 @@
             "time": "2024-02-05T11:35:39+00:00"
         },
         {
-            "name": "drupal/catalog_lite",
-            "version": "1.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/catalog_lite.git",
-                "reference": "8.x-1.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/catalog_lite-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "8d4081694c0cbaeaf5907c5c56bdc16275df2653"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9 || ^10"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1699694026",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Stavros Kounis (skounis)",
-                    "homepage": "https://www.drupal.org/u/skounis",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Soukri Kechagia (skechagia)",
-                    "homepage": "https://www.drupal.org/u/skech",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Vasilis Kechagias (vkech)",
-                    "homepage": "https://www.drupal.org/u/vkech",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Giorgos Konispoliatis (Geokon)",
-                    "homepage": "https://www.drupal.org/u/geokon",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "vkech",
-                    "homepage": "https://www.drupal.org/user/1451830"
-                }
-            ],
-            "description": "A free version of Catalog+, our business/corporate theme distribution for Drupal 8.",
-            "homepage": "https://www.drupal.org/project/catalog_lite",
-            "support": {
-                "source": "https://git.drupalcode.org/project/catalog_lite",
-                "issues": "https://www.drupal.org/project/issues/catalog_lite"
-            }
-        },
-        {
             "name": "drupal/classy",
             "version": "1.0.2",
             "source": {
@@ -969,75 +904,6 @@
             "keywords": [
                 "drupal"
             ]
-        },
-        {
-            "name": "drupal/showcase_lite",
-            "version": "1.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/showcase_lite.git",
-                "reference": "8.x-1.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/showcase_lite-8.x-1.5.zip",
-                "reference": "8.x-1.5",
-                "shasum": "c5f5e75c8c500cd7d941350e607101e0281d9954"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9 || ^10"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-1.5",
-                    "datestamp": "1706177649",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Stavros Kounis (skounis)",
-                    "homepage": "https://www.drupal.org/u/skounis",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Soukri Kechagia (skechagia)",
-                    "homepage": "https://www.drupal.org/u/skech",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Vasilis Kechagias (vkech)",
-                    "homepage": "https://www.drupal.org/u/vkech",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Giorgos Konispoliatis (Geokon)",
-                    "homepage": "https://www.drupal.org/u/geokon",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "skounis",
-                    "homepage": "https://www.drupal.org/user/877552"
-                },
-                {
-                    "name": "vkech",
-                    "homepage": "https://www.drupal.org/user/1451830"
-                }
-            ],
-            "description": "A free version of Showcase+, our Drupal theme for creatives, trendsetters, design and development studios.",
-            "homepage": "https://www.drupal.org/project/showcase_lite",
-            "support": {
-                "source": "https://git.drupalcode.org/project/showcase_lite",
-                "issues": "https://www.drupal.org/project/issues/showcase_lite"
-            }
         },
         {
             "name": "drupal/stable",
@@ -6616,10 +6482,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
