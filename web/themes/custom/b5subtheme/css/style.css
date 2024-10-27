@@ -12844,6 +12844,86 @@ code {
 .navbar-nav .nav-item + .nav-item {
   margin-left: 0;
 }
+.navbar.bg-primary .nav-link:hover, .navbar.bg-primary .media-library-view--widget .view-header a:hover, .media-library-view--widget .view-header .navbar.bg-primary a:hover {
+  background-image: linear-gradient(#313539, #34393d 40%, #373b40);
+  filter: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.navbar.bg-primary .nav-link:active, .navbar.bg-primary .media-library-view--widget .view-header a:active, .media-library-view--widget .view-header .navbar.bg-primary a:active, .navbar.bg-primary .nav-link.active, .navbar.bg-primary .media-library-view--widget .view-header a.active, .media-library-view--widget .view-header .navbar.bg-primary a.active, .navbar.bg-primary .media-library-view--widget .view-header a.is-active, .media-library-view--widget .view-header .navbar.bg-primary a.is-active {
+  background-image: linear-gradient(#25282c, #292c30 40%, #2b2f32);
+  filter: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.navbar.bg-secondary .nav-link:hover, .navbar.bg-secondary .media-library-view--widget .view-header a:hover, .media-library-view--widget .view-header .navbar.bg-secondary a:hover {
+  background-image: linear-gradient(#666d72, #6e757a 40%, #737a80);
+  filter: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.navbar.bg-secondary .nav-link:active, .navbar.bg-secondary .media-library-view--widget .view-header a:active, .media-library-view--widget .view-header .navbar.bg-secondary a:active, .navbar.bg-secondary .nav-link.active, .navbar.bg-secondary .media-library-view--widget .view-header a.active, .media-library-view--widget .view-header .navbar.bg-secondary a.active, .navbar.bg-secondary .media-library-view--widget .view-header a.is-active, .media-library-view--widget .view-header .navbar.bg-secondary a.is-active {
+  background-image: linear-gradient(#4e5357, #555b5f 40%, #5a6065);
+  filter: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.navbar.bg-success .nav-link:hover, .navbar.bg-success .media-library-view--widget .view-header a:hover, .media-library-view--widget .view-header .navbar.bg-success a:hover {
+  background-image: linear-gradient(#52a552, #58b058 40%, #5cb85c);
+  filter: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.navbar.bg-success .nav-link:active, .navbar.bg-success .media-library-view--widget .view-header a:active, .media-library-view--widget .view-header .navbar.bg-success a:active, .navbar.bg-success .nav-link.active, .navbar.bg-success .media-library-view--widget .view-header a.active, .media-library-view--widget .view-header .navbar.bg-success a.active, .navbar.bg-success .media-library-view--widget .view-header a.is-active, .media-library-view--widget .view-header .navbar.bg-success a.is-active {
+  background-image: linear-gradient(#3f7d3f, #458945 40%, #499149);
+  filter: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.navbar.bg-info .nav-link:hover, .navbar.bg-info .media-library-view--widget .view-header a:hover, .media-library-view--widget .view-header .navbar.bg-info a:hover {
+  background-image: linear-gradient(#4ca1ba, #52adc8 40%, #56b4d1);
+  filter: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.navbar.bg-info .nav-link:active, .navbar.bg-info .media-library-view--widget .view-header a:active, .media-library-view--widget .view-header .navbar.bg-info a:active, .navbar.bg-info .nav-link.active, .navbar.bg-info .media-library-view--widget .view-header a.active, .media-library-view--widget .view-header .navbar.bg-info a.active, .navbar.bg-info .media-library-view--widget .view-header a.is-active, .media-library-view--widget .view-header .navbar.bg-info a.is-active {
+  background-image: linear-gradient(#3a7b8e, #40869b 40%, #438ea4);
+  filter: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.navbar.bg-warning .nav-link:hover, .navbar.bg-warning .media-library-view--widget .view-header a:hover, .media-library-view--widget .view-header .navbar.bg-warning a:hover {
+  background-image: linear-gradient(#d07c05, #df8505 40%, #e98b06);
+  filter: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.navbar.bg-warning .nav-link:active, .navbar.bg-warning .media-library-view--widget .view-header a:active, .media-library-view--widget .view-header .navbar.bg-warning a:active, .navbar.bg-warning .nav-link.active, .navbar.bg-warning .media-library-view--widget .view-header a.active, .media-library-view--widget .view-header .navbar.bg-warning a.active, .navbar.bg-warning .media-library-view--widget .view-header a.is-active, .media-library-view--widget .view-header .navbar.bg-warning a.is-active {
+  background-image: linear-gradient(#9f5f04, #ae6804 40%, #b86e04);
+  filter: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.navbar.bg-danger .nav-link:hover, .navbar.bg-danger .media-library-view--widget .view-header a:hover, .media-library-view--widget .view-header .navbar.bg-danger a:hover {
+  background-image: linear-gradient(#c8504c, #d65652 40%, #e05956);
+  filter: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.navbar.bg-danger .nav-link:active, .navbar.bg-danger .media-library-view--widget .view-header a:active, .media-library-view--widget .view-header .navbar.bg-danger a:active, .navbar.bg-danger .nav-link.active, .navbar.bg-danger .media-library-view--widget .view-header a.active, .media-library-view--widget .view-header .navbar.bg-danger a.active, .navbar.bg-danger .media-library-view--widget .view-header a.is-active, .media-library-view--widget .view-header .navbar.bg-danger a.is-active {
+  background-image: linear-gradient(#983d3a, #a74340 40%, #b04643);
+  filter: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.navbar.bg-light .nav-link:hover, .navbar.bg-light .media-library-view--widget .view-header a:hover, .media-library-view--widget .view-header .navbar.bg-light a:hover {
+  background-image: linear-gradient(#c4c6c9, #d2d4d7 40%, #dbdee1);
+  filter: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.navbar.bg-light .nav-link:active, .navbar.bg-light .media-library-view--widget .view-header a:active, .media-library-view--widget .view-header .navbar.bg-light a:active, .navbar.bg-light .nav-link.active, .navbar.bg-light .media-library-view--widget .view-header a.active, .media-library-view--widget .view-header .navbar.bg-light a.active, .navbar.bg-light .media-library-view--widget .view-header a.is-active, .media-library-view--widget .view-header .navbar.bg-light a.is-active {
+  background-image: linear-gradient(#959799, #a3a5a7 40%, #acafb1);
+  filter: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.navbar.bg-dark .nav-link:hover, .navbar.bg-dark .media-library-view--widget .view-header a:hover, .media-library-view--widget .view-header .navbar.bg-dark a:hover {
+  background-image: linear-gradient(#212428, #23272b 40%, #25282d);
+  filter: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.navbar.bg-dark .nav-link:active, .navbar.bg-dark .media-library-view--widget .view-header a:active, .media-library-view--widget .view-header .navbar.bg-dark a:active, .navbar.bg-dark .nav-link.active, .navbar.bg-dark .media-library-view--widget .view-header a.active, .media-library-view--widget .view-header .navbar.bg-dark a.active, .navbar.bg-dark .media-library-view--widget .view-header a.is-active, .media-library-view--widget .view-header .navbar.bg-dark a.is-active {
+  background-image: linear-gradient(#191c1f, #1b1e22 40%, #1d2024);
+  filter: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
 
 @media (max-width: 576px) {
   .navbar-expand-sm .navbar-brand,
@@ -12879,6 +12959,102 @@ code {
 }
 .btn:hover, button.link:hover, .button:hover, .node-preview-container .node-preview-backlink:hover, .btn:focus, button.link:focus, .button:focus, .node-preview-container .node-preview-backlink:focus, .btn:not([disabled]):not(.disabled):active, button.link:not([disabled]):not(.disabled):active, .button:not([disabled]):not(.disabled):active, .node-preview-container .node-preview-backlink:not([disabled]):not(.disabled):active, .btn:not([disabled]):not(.disabled):active:hover, .btn:not([disabled]):not(.disabled).active:hover, .media-library-view--widget .view-header a.btn.is-active:not([disabled]):not(.disabled):hover, .media-library-view--widget .view-header a.button.is-active:not([disabled]):not(.disabled):hover, .node-preview-container .media-library-view--widget .view-header a.node-preview-backlink.is-active:not([disabled]):not(.disabled):hover, .media-library-view--widget .view-header .node-preview-container a.node-preview-backlink.is-active:not([disabled]):not(.disabled):hover {
   border-color: rgba(0, 0, 0, 0.6);
+}
+.btn-primary {
+  background-image: linear-gradient(#44494d, #3a3f44 20%, #2e3236);
+  filter: none;
+}
+.btn-primary:not([disabled]):not(.disabled):hover {
+  background-image: linear-gradient(#313539, #34393d 40%, #373b40);
+  filter: none;
+}
+.btn-primary:not([disabled]):not(.disabled):active:hover, .btn-primary:not([disabled]):not(.disabled).active:hover, .media-library-view--widget .view-header a.btn-primary.is-active:not([disabled]):not(.disabled):hover {
+  background-image: linear-gradient(#25282c, #292c30 40%, #2b2f32);
+  filter: none;
+}
+.btn-secondary {
+  background-image: linear-gradient(#81888e, #7a8288 20%, #62686d);
+  filter: none;
+}
+.btn-secondary:not([disabled]):not(.disabled):hover {
+  background-image: linear-gradient(#666d72, #6e757a 40%, #737a80);
+  filter: none;
+}
+.btn-secondary:not([disabled]):not(.disabled):active:hover, .btn-secondary:not([disabled]):not(.disabled).active:hover, .media-library-view--widget .view-header a.btn-secondary.is-active:not([disabled]):not(.disabled):hover {
+  background-image: linear-gradient(#4e5357, #555b5f 40%, #5a6065);
+  filter: none;
+}
+.btn-success {
+  background-image: linear-gradient(#6ac76a, #62c462 20%, #4e9d4e);
+  filter: none;
+}
+.btn-success:not([disabled]):not(.disabled):hover {
+  background-image: linear-gradient(#52a552, #58b058 40%, #5cb85c);
+  filter: none;
+}
+.btn-success:not([disabled]):not(.disabled):active:hover, .btn-success:not([disabled]):not(.disabled).active:hover, .media-library-view--widget .view-header a.btn-success.is-active:not([disabled]):not(.disabled):hover {
+  background-image: linear-gradient(#3f7d3f, #458945 40%, #499149);
+  filter: none;
+}
+.btn-info {
+  background-image: linear-gradient(#63c3e0, #5bc0de 20%, #499ab2);
+  filter: none;
+}
+.btn-info:not([disabled]):not(.disabled):hover {
+  background-image: linear-gradient(#4ca1ba, #52adc8 40%, #56b4d1);
+  filter: none;
+}
+.btn-info:not([disabled]):not(.disabled):active:hover, .btn-info:not([disabled]):not(.disabled).active:hover, .media-library-view--widget .view-header a.btn-info.is-active:not([disabled]):not(.disabled):hover {
+  background-image: linear-gradient(#3a7b8e, #40869b 40%, #438ea4);
+  filter: none;
+}
+.btn-warning {
+  background-image: linear-gradient(#f89912, #f89406 20%, #c67605);
+  filter: none;
+}
+.btn-warning:not([disabled]):not(.disabled):hover {
+  background-image: linear-gradient(#d07c05, #df8505 40%, #e98b06);
+  filter: none;
+}
+.btn-warning:not([disabled]):not(.disabled):active:hover, .btn-warning:not([disabled]):not(.disabled).active:hover, .media-library-view--widget .view-header a.btn-warning.is-active:not([disabled]):not(.disabled):hover {
+  background-image: linear-gradient(#9f5f04, #ae6804 40%, #b86e04);
+  filter: none;
+}
+.btn-danger {
+  background-image: linear-gradient(#ef6763, #ee5f5b 20%, #be4c49);
+  filter: none;
+}
+.btn-danger:not([disabled]):not(.disabled):hover {
+  background-image: linear-gradient(#c8504c, #d65652 40%, #e05956);
+  filter: none;
+}
+.btn-danger:not([disabled]):not(.disabled):active:hover, .btn-danger:not([disabled]):not(.disabled).active:hover, .media-library-view--widget .view-header a.btn-danger.is-active:not([disabled]):not(.disabled):hover {
+  background-image: linear-gradient(#983d3a, #a74340 40%, #b04643);
+  filter: none;
+}
+.btn-light {
+  background-image: linear-gradient(#eaedf0, #e9ecef 20%, #babdbf);
+  filter: none;
+}
+.btn-light:not([disabled]):not(.disabled):hover {
+  background-image: linear-gradient(#c4c6c9, #d2d4d7 40%, #dbdee1);
+  filter: none;
+}
+.btn-light:not([disabled]):not(.disabled):active:hover, .btn-light:not([disabled]):not(.disabled).active:hover, .media-library-view--widget .view-header a.btn-light.is-active:not([disabled]):not(.disabled):hover {
+  background-image: linear-gradient(#959799, #a3a5a7 40%, #acafb1);
+  filter: none;
+}
+.btn-dark {
+  background-image: linear-gradient(#32363a, #272b30 20%, #1f2226);
+  filter: none;
+}
+.btn-dark:not([disabled]):not(.disabled):hover {
+  background-image: linear-gradient(#212428, #23272b 40%, #25282d);
+  filter: none;
+}
+.btn-dark:not([disabled]):not(.disabled):active:hover, .btn-dark:not([disabled]):not(.disabled).active:hover, .media-library-view--widget .view-header a.btn-dark.is-active:not([disabled]):not(.disabled):hover {
+  background-image: linear-gradient(#191c1f, #1b1e22 40%, #1d2024);
+  filter: none;
 }
 
 .btn-outline-primary, .node-preview-container .node-preview-backlink {
@@ -13028,6 +13204,30 @@ legend {
   color: #fff;
   text-decoration: underline;
 }
+.alert-primary {
+  background-color: #3a3f44;
+}
+.alert-secondary {
+  background-color: #7a8288;
+}
+.alert-success {
+  background-color: #62c462;
+}
+.alert-info {
+  background-color: #5bc0de;
+}
+.alert-warning {
+  background-color: #f89406;
+}
+.alert-danger {
+  background-color: #ee5f5b;
+}
+.alert-light {
+  background-color: #e9ecef;
+}
+.alert-dark {
+  background-color: #272b30;
+}
 .alert-light,
 .alert-light a:not(.btn):not(button.link):not(.button):not(a.button),
 .alert-light .alert-link {
@@ -13051,6 +13251,38 @@ legend {
 }
 .list-group-item-action:hover {
   background-color: #23272b;
+}
+.list-group-item-primary {
+  background-color: #3a3f44;
+  border-color: rgba(0, 0, 0, 0.6);
+}
+.list-group-item-secondary {
+  background-color: #7a8288;
+  border-color: rgba(0, 0, 0, 0.6);
+}
+.list-group-item-success {
+  background-color: #62c462;
+  border-color: rgba(0, 0, 0, 0.6);
+}
+.list-group-item-info {
+  background-color: #5bc0de;
+  border-color: rgba(0, 0, 0, 0.6);
+}
+.list-group-item-warning {
+  background-color: #f89406;
+  border-color: rgba(0, 0, 0, 0.6);
+}
+.list-group-item-danger {
+  background-color: #ee5f5b;
+  border-color: rgba(0, 0, 0, 0.6);
+}
+.list-group-item-light {
+  background-color: #e9ecef;
+  border-color: rgba(0, 0, 0, 0.6);
+}
+.list-group-item-dark {
+  background-color: #272b30;
+  border-color: rgba(0, 0, 0, 0.6);
 }
 
 /*# sourceMappingURL=style.css.map */
