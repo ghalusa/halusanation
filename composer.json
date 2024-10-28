@@ -28,6 +28,7 @@
         "drupal/easy_breadcrumb": "^2.0",
         "drupal/entity_print": "^2.15",
         "drupal/field_group": "^3.6",
+        "drupal/layout_paragraphs": "^2.1",
         "drupal/mailsystem": "^4.5",
         "drupal/masquerade": "^2.0",
         "drupal/paragraphs": "^1.18",
