@@ -1,0 +1,20 @@
+uuid: 85d87ca4-eb35-4152-8361-16abbb041f1b
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: 6Kt17xu7pzAhfijAxojmSw9bKXjrKMfe1ugDocTKpBA
+id: paragraph.bp_always_show
+field_name: bp_always_show
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
