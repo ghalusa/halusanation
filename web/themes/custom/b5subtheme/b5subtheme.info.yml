@@ -1,6 +1,6 @@
-name: 'B5 subtheme'
+name: 'Bootstrap5 Lux'
 type: theme
-description: 'B5 subtheme subtheme based on Bootstrap 5 theme.'
+description: 'A subtheme based on Bootstrap 5 which implements the Lux Bootswatch theme.'
 core_version_requirement: '^10.1 || ^11.0'
 'base theme': bootstrap5
 libraries:
