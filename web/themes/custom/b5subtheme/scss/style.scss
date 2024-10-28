@@ -6,10 +6,18 @@
 // @import 'variables_bootstrap';
 
 // Bootswatch Slate overridden variables.
-@import 'variables_bootswatch_slate';
+// @see https://getbootstrap.com/docs/5.2/customize/sass/#variable-defaults.
+// @import 'variables_bootswatch_slate';
+
+// Bootswatch Lux overridden variables.
+// @see https://getbootstrap.com/docs/5.2/customize/sass/#variable-defaults.
+@import 'variables_bootswatch_lux';
 
 // Include bootstrap.
 @import '../../../../themes/contrib/bootstrap5/scss/style';
 
 // Bootswatch Slate.
-@import 'bootswatch_slate';
+// @import 'bootswatch_slate';
+
+// Bootswatch Lux.
+@import 'bootswatch_lux';

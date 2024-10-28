@@ -12,12 +12,12 @@ features:
   node_user_picture: 0
   comment_user_picture: 0
   comment_user_verification: 0
-  favicon: 0
+  favicon: 1
 logo:
   use_default: 0
   path: ''
 favicon:
-  use_default: 0
+  use_default: 1
   path: ''
 subtheme_folder: themes/custom
 subtheme_name: 'B5 subtheme'
