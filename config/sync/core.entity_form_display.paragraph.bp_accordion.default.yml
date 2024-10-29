@@ -44,15 +44,16 @@ bundle: bp_accordion
 mode: default
 content:
   bp_accordion_expand:
+    type: boolean_checkbox
     weight: 2
+    region: content
     settings:
       display_label: true
     third_party_settings: {  }
-    type: boolean_checkbox
-    region: content
   bp_accordion_section:
     type: entity_reference_paragraphs
     weight: 5
+    region: content
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -61,7 +62,6 @@ content:
       form_display_mode: default
       default_paragraph_type: ''
     third_party_settings: {  }
-    region: content
   bp_always_show:
     type: boolean_checkbox
     weight: 6
@@ -70,11 +70,11 @@ content:
       display_label: true
     third_party_settings: {  }
   bp_background:
+    type: options_select
     weight: 0
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: options_select
-    region: content
   bp_header:
     type: string_textfield
     weight: 4
@@ -96,18 +96,18 @@ content:
     settings: {  }
     third_party_settings: {  }
   bp_show_indicators:
+    type: boolean_checkbox
     weight: 3
+    region: content
     settings:
       display_label: true
     third_party_settings: {  }
-    type: boolean_checkbox
-    region: content
   bp_width:
+    type: options_select
     weight: 1
+    region: content
     settings: {  }
     third_party_settings: {  }
-    type: options_select
-    region: content
 hidden:
   created: true
   status: true

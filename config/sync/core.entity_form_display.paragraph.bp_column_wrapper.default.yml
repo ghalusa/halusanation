@@ -38,6 +38,7 @@ content:
   bp_column_content_w:
     type: entity_reference_paragraphs
     weight: 0
+    region: content
     settings:
       title: Paragraph
       title_plural: Paragraphs
@@ -45,7 +46,6 @@ content:
       add_mode: dropdown
       form_display_mode: default
     third_party_settings: {  }
-    region: content
   bp_margin:
     type: options_select
     weight: 2

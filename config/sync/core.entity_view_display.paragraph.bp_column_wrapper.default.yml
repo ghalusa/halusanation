@@ -19,12 +19,12 @@ mode: default
 content:
   bp_column_content_w:
     type: entity_reference_revisions_entity_view
-    weight: 0
     label: hidden
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
+    weight: 0
     region: content
   bp_margin:
     type: list_key
@@ -42,4 +42,7 @@ content:
     region: content
 hidden:
   created: true
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
   uid: true
