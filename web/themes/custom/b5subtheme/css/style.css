@@ -93,7 +93,7 @@
   --bs-tertiary-color-rgb: 85, 89, 92;
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
-  --bs-heading-color: #1a1a1a;
+  --bs-heading-color: #eceeef;
   --bs-link-color: #1a1a1a;
   --bs-link-color-rgb: 26, 26, 26;
   --bs-link-decoration: underline;
@@ -5569,7 +5569,7 @@ textarea.form-control-lg {
   --bs-popover-header-padding-x: 1rem;
   --bs-popover-header-padding-y: 0.5rem;
   --bs-popover-header-font-size: 1rem;
-  --bs-popover-header-color: #1a1a1a;
+  --bs-popover-header-color: #eceeef;
   --bs-popover-header-bg: var(--bs-secondary-bg);
   --bs-popover-body-padding-x: 1rem;
   --bs-popover-body-padding-y: 1rem;
