@@ -14,11 +14,12 @@ features:
   comment_user_verification: 0
   favicon: 1
 logo:
-  use_default: 0
-  path: ''
+  use_default: 1
+  path: themes/custom/b5subtheme/logo.svg
 favicon:
   use_default: 1
-  path: ''
+  path: themes/custom/b5subtheme/favicon.ico
+  mimetype: image/vnd.microsoft.icon
 subtheme_folder: themes/custom
 subtheme_name: 'B5 subtheme'
 subtheme_machine_name: b5subtheme
