@@ -1,0 +1,12 @@
+uuid: 3d00ed11-271f-47e1-bc76-543640fea218
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: YUIbAolW9GFQTEvxi7qF08U9jeVjaMb_YOVOQQke4y8
+id: bp_media
+label: Media
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

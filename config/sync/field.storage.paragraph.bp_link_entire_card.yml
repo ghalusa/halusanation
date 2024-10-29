@@ -1,0 +1,20 @@
+uuid: 3657f3ce-51f4-473c-bb49-f303e3e10b0b
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: gxfQd8dy2cWJ9lDZb2vGKw1OCTrKlitQrz_alkrmHHA
+id: paragraph.bp_link_entire_card
+field_name: bp_link_entire_card
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

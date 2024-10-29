@@ -11,6 +11,9 @@ module:
   block: 0
   block_content: 0
   bootstrap_paragraphs: 0
+  bp_callout: 0
+  bp_card: 0
+  bp_media: 0
   breakpoint: 0
   ckeditor5: 0
   comment: 0
@@ -33,11 +36,15 @@ module:
   help: 0
   history: 0
   image: 0
+  inline_form_errors: 0
+  layout_builder: 0
   layout_discovery: 0
   layout_paragraphs: 0
   link: 0
   mailsystem: 0
   masquerade: 0
+  media: 0
+  media_library: 0
   menu_link_content: 0
   menu_ui: 0
   mysql: 0
